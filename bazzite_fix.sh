@@ -2,7 +2,7 @@
 
 cd /tmp
 
-git clone --depth=1 https://github.com/pacoa-kdbg/chimeraOS-win2.git
+git clone --depth=1 https://github.com/aarron-lee/bazzite-win2.git
 
 cd chimeraOS-win2
 
