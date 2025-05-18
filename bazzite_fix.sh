@@ -4,7 +4,7 @@ cd /tmp
 
 git clone --depth=1 https://github.com/aarron-lee/bazzite-win2.git
 
-cd chimeraOS-win2
+cd bazzite-win2
 
 echo "Getting nbfc from official github repo"
 
@@ -31,6 +31,6 @@ sudo nbfc config --set /usr/local/share/nbfc/configs/WIN2.json
 sudo systemctl enable nbfc_service.service
 sudo systemctl start nbfc_service.service
 
-sudo rm -rf /tmp/chimeraOS-win2
+sudo rm -rf /tmp/bazzite-win2
 
 echo "Installation complete!"
